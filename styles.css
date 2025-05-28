@@ -1,0 +1,16 @@
+* {
+    border: 1px solid red;
+} 
+
+.header {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-link {
+    border: 1px solid red;
+    display: flex;
+    gap: 10px;
+}
