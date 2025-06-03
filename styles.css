@@ -13,31 +13,75 @@ a {
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    color: #f9faf8;
+    justify-content: space-evenly;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-link {
+    display: flex;
+    gap: 20px;
+}
+
+.header-logo {
     font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .hero-body {
     display: flex;
-    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
     color: #e5e7eb;
     font-size: 18px;
 }
-.header-body{
+
+.header-body, .footer {
     margin: 0;
     background-color: #1f2937;
     font-family: "Roboto";
+    overflow: hidden;
+}
+
+.hero-button {
+    display: flex;
+    max-width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: #3882F6;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
 .hero-image {
     width: 500px;
-    height: 200px;
-    height: auto;
+    height: 250px;
     background-color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hero-text {
+    display: flex;
+    max-width: 450px;
+    flex-direction: column;
 }
 
 .hero-title {
@@ -46,9 +90,9 @@ a {
     font-size: 48px;
 }
 
-.hero {
-    display: flex;
-    flex-direction: row;
+
+.img-info {
+    margin: 50px;
 }
 
 .img-info, .signature {
@@ -90,19 +134,68 @@ a {
 
 .sec-img-text {
     text-align: center;
+    margin-bottom: 80px;
+    margin-top: 5px;
 }
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .main-quote {
     color: #1F2937;
     font-style: italic;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 100;
+    width: 800px;
+    margin-top: 100px;
 }
 
 .signature {
     font-size: 26px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 900px;
+    height: 100px;
+    margin: 80px auto;
+    background-color: #3882F6;
+    border-radius: 5px;
+    gap: 200px;
+}
+
+.sgup-text, .sgup-button, .footer {
+    color: #F9FAF8;
+}
+
+.sgup-text-title, .sgup-button {
+    font-weight: bold;
+}
+
+.sgup-button {
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    width: 100px;
+    height: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.ft-text {
+    margin: 25px auto;
 }
